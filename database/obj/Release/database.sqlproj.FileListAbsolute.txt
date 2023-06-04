@@ -1,0 +1,9 @@
+C:\Users\Administrator\source\repos\database\database\bin\Release\database.dacpac
+C:\Users\Administrator\source\repos\database\database\bin\Release\database.dll
+C:\Users\Administrator\source\repos\database\database\bin\Release\database.pdb
+C:\Users\Administrator\source\repos\database\database\obj\Release\Model.xml
+C:\Users\Administrator\source\repos\database\database\obj\Release\refactor.xml
+C:\Users\Administrator\source\repos\database\database\obj\Release\postdeploy.sql
+C:\Users\Administrator\source\repos\database\database\obj\Release\predeploy.sql
+C:\Users\Administrator\source\repos\database\database\obj\Release\database.dll
+C:\Users\Administrator\source\repos\database\database\obj\Release\database.pdb
