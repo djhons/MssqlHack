@@ -10,7 +10,7 @@ DECLARE @info varchar(1024);SELECT @info='ping '+(SELECT SUBSTRING((select @@ver
 
 **2008和2012的teamserver不能使用profile，不然会导致sqlserver挂掉。**
 
-**2005需要重启服务所以不能用，大于2016内存分配有问题目前也无法使用。**
+**2005需要重启服务所以不能用，大于等于2016内存分配有问题目前也无法使用，所以只有2008，2012，2014能用**
 
 **最好使用cs4.5，生成shellcode的时候选择退出方式为线程，不然执行exit的时候会导致sqlserver进程退出，导致服务宕机。**
 ```
